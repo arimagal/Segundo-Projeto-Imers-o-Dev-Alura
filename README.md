@@ -63,6 +63,8 @@ JS
 var valorEmAnosLuz = 2;
 var quilometrosDeAnosLuz = 9460730472580.8;
 
+var valorEmAnosLuz = Number(prompt("Digite o valor em Bitcoin:"));
+
 var valorEmQuilometros = valorEmAnosLuz * quilometrosDeAnosLuz;
 valorEmQuilometros = valorEmQuilometros;
 alert("Resultado de AnosLuz em Quilometros " + valorEmQuilometros + " KM ");
